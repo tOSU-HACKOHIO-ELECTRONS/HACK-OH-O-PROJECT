@@ -15,7 +15,7 @@ int main()
     string answer;       //is the user inputting acres or dimensions
     double const yard_to_acre = .000206612;  //yard to acre conversion
 
-    cout<< "Would you like to input the acrage or dimensions? if dimensions, enter 0. ";
+    cout<< "Would you like to input the acrage or dimensions? ";
     cin>> answer;
 
     if (answer == "dimensions"){
@@ -102,5 +102,5 @@ int main()
     //this section will solve for the amount of days
     int num_days;   //number of days before rotating pastures
 
-    //num_days = (
+    //num_days = (field_area * 
 }
