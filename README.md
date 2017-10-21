@@ -4,3 +4,4 @@
 
 - Christopher Davis
 - Hannah May
+- Grant Brooks
