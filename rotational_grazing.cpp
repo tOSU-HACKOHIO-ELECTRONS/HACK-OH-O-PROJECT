@@ -23,7 +23,7 @@ int main()
         cin>> field_length;
         cout<< "Enter width (yards): ";
         cin>> field_width;
-        field_area = (field_width * field_length);
+        field_area = (field_width * field_length) * yard_to_acre;
     }
     else if (answer == "acreage"){
         cout<< "Enter number of acres: ";
