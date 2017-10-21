@@ -1,0 +1,10 @@
+# Generic Java Files
+
+*.class
+
+# Ant Build Files
+
+/bin/
+
+# VS Code Java Plugin Files
+## Placeholder for now.
