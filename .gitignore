@@ -9,3 +9,7 @@
 
 # VS Code Java Plugin Files
 ## Placeholder for now.
+
+# C++ Output Files
+
+*.out
