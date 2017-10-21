@@ -93,7 +93,7 @@ int main()
         cout<< "How many cattle are in the field? ";
         cin>> num_animals;
     }
-    else if (animal == "horse"){
+    else if (animal == "horses"){
         animal_weight = horse_weight;
         cout<< "How many horses are in the field? ";
         cin>> num_animals;
