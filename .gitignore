@@ -5,6 +5,7 @@
 # Ant Build Files
 
 /bin/
+/dest/
 
 # VS Code Java Plugin Files
 ## Placeholder for now.
