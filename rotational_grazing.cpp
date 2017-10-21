@@ -18,14 +18,14 @@ int main()
     cout<< "Would you like to input the acrage or dimensions? if dimensions, enter 0. ";
     cin>> answer;
 
-    if (answer == 'dimensions'){
+    if (answer == "dimensions"){
         cout<< "Enter length (yards): ";
         cin>> field_length;
         cout<< "Enter width (yards): ";
         cin>> field_width;
         field_area = (field_width * field_length);
     }
-    else if (answer == 'acrage'){
+    else if (answer == "acrage"){
         cout<< "Enter number of acres: ";
         cin>> field_area;
     }
@@ -71,11 +71,11 @@ int main()
     cout<< "Enter month (number): ";
     cin>> month;
 
-    if (grass == 'bermuda'){
+    if (grass == "bermuda"){
         yield = bermuda_grass[month - 1];
     }
 
-    else if (grass == 'fescue'){
+    else if (grass == "fescue"){
         yield = fescue[month - 1];
     }
 
@@ -88,12 +88,12 @@ int main()
 
     cout<< "Are there cattle or horses in the field? ";
     cin>> animal;
-    if (animal == 'cattle'){
+    if (animal == "cattle"){
         animal_weight = cow_weight;
         cout<< "How many cattle are in the field? ";
         cin>> num_animals;
     }
-    else if (animal == 'horse'){
+    else if (animal == "horse"){
         animal_weight = horse_weight;
         cout<< "How many horses are in the field? ";
         cin>> num_animals;
@@ -102,5 +102,4 @@ int main()
     //this section will solve for the amount of days
     int num_days;   //number of days before rotating pastures
 
-    num_days = ((n))
-}
+    //num_days = (
