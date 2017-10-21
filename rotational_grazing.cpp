@@ -1,5 +1,5 @@
 //File Name: rotational_grazing.cpp
-//Created by: Hannah May
+//Created by: Hannah May, Chris Davis, Grant Brooks
 //Created on: 10/21/17
 //this program computed the amount of time until a field of livestock needs to be rotated using information inputted
 
