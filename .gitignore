@@ -13,3 +13,7 @@
 # C++ Output Files
 
 *.out
+
+# Android Studio Hidden Files
+
+/.idea/
